@@ -1,0 +1,22 @@
+export enum CompanyType {
+  PRIVATE_LIMITED = "PRIVATE_LIMITED",
+  LLP = "LLP",
+  PROPRIETORSHIP = "PROPRIETORSHIP",
+  PARTNERSHIP = "PARTNERSHIP",
+}
+
+export enum IndustryType {
+  RESIDENTIAL = "RESIDENTIAL",
+  COMMERCIAL = "COMMERCIAL",
+  INFRASTRUCTURE = "INFRASTRUCTURE",
+  MIXED = "MIXED",
+}
+
+export enum CompanyEmailType {
+  PRIMARY = "PRIMARY",
+  SALES = "SALES",
+  SUPPORT = "SUPPORT",
+  HR = "HR",
+  ACCOUNTS = "ACCOUNTS",
+  LEGAL = "LEGAL",
+}

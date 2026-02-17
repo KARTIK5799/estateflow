@@ -1,0 +1,14 @@
+export enum UserStatus {
+    INVITED = "INVITED",
+    PROFILE_PENDING = "PROFILE_PENDING",
+    UNDER_REVIEW = "UNDER_REVIEW",
+    ACTIVE = "ACTIVE",
+    SUSPENDED = "SUSPENDED",
+}
+export enum EmployeeStatus {
+   PENDING = "PENDING",
+  HR_VERIFIED= "HR_VERIFIED",
+ ADMIN_APPROVED = "ADMIN_APPROVED",
+  REJECTED= "REJECTED",
+}
+ 
